@@ -6,7 +6,7 @@
 package paquete1;
 
 import java.util.Locale;
-import java.util.Scanner;
+import java.util.Scanner; // importar para que no haya error
 
 /**
  *
@@ -27,7 +27,7 @@ public class Ejemplo1 {
         double notaAsignatura2;
         
         System.out.println("Ingrese nombre de asignatura 1");
-        nombreAsignatura1 = entrada.nextLine();
+        nombreAsignatura1 = entrada.nextLine(); // next line permite recibir una cadena
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
