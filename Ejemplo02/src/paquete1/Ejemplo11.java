@@ -32,7 +32,7 @@ public class Ejemplo11 {
         notaAsignatura1 = entrada.nextDouble();
         
         
-        System.out.printf("Asignatura 1: %s\nNota 1: %.2f",
+        System.out.printf("Asignatura 1: %s\nNota 1: %.2f", // %.2f que solo salgan 2 decimales
                 nombreAsignatura1,
                 notaAsignatura1);
                 
