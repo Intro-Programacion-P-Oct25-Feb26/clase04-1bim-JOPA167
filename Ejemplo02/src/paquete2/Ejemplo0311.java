@@ -18,6 +18,7 @@ public class Ejemplo0311 {
         Scanner entrada = new Scanner(System.in);
         String nombre;
         String apellido;
+        String barrio;
         int nacimiento;
         int ciclo;
         
@@ -33,13 +34,17 @@ public class Ejemplo0311 {
         
         System.out.println("Ingrese el ciclo academico en número");
         ciclo = entrada.nextInt();
+        entrada.nextLine();
+        System.out.println("Ingrese su barrio");
+        barrio = entrada.nextLine();
         
         System.out.printf("Datos del estudiante\nNombre: %s\nApellido: "
-                + "%s\nNacimiento: %d\nCiclo: %d/n", 
+                + "%s\nNacimiento: %d\nCiclo: %d\n Barrio: %s\n", 
                 nombre,
                 apellido,
                 nacimiento,
-                ciclo);
+                ciclo,
+                barrio);
         // Hemos cambiado el ultimo %s por %d ya que la variable es entero
     }
 }
